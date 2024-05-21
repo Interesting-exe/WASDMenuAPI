@@ -7,4 +7,4 @@ Idea and gifs from [oqyh's Kill-Sound-GoldKingZ](https://github.com/oqyh/cs2-Kil
 
 ### TODO:
 create proper docs for the API. <br>
-Take a look at [IWasdMenuManager.cs](https://github.com/Interesting-exe/WASDSharedAPI/blob/master/WASDSharedAPI/IWasdMenuManager.cs) and [WasdTest.cs](https://github.com/Interesting-exe/WASDSharedAPI/blob/master/WasdSharedAPITest/WasdTest.cs) for available methods and usage while the docs aren't available
+Take a look at [IWasdMenuManager.cs](https://github.com/Interesting-exe/WASDMenuAPI/blob/master/WASDSharedAPI/IWasdMenuManager.cs) and [WasdTest.cs](https://github.com/Interesting-exe/WASDMenuAPI/blob/master/WasdSharedAPITest/WasdTest.cs) for available methods and usage while the docs aren't available
