@@ -1,5 +1,5 @@
 # WASD Menu API
-API to easily create WASD menus
+API to easily create WASD menus <br>
 ![W8bIt](https://github.com/Interesting-exe/WASDSharedAPI/assets/52731127/6a3ffbee-0912-4815-88d1-d89f5ff05b37)
 
 ## Credits
