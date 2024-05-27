@@ -31,7 +31,7 @@ public class WASDMenuAPI : BasePlugin
                 Players[@event.Userid.Slot] = new WasdMenuPlayer
                 {
                     player = @event.Userid,
-                    Buttons = @event.Userid.Buttons
+                    Buttons = 0
                 };
             return HookResult.Continue;
         });
