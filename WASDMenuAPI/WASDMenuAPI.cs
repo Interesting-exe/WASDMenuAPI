@@ -12,7 +12,7 @@ namespace WASDMenuAPI;
 public class WASDMenuAPI : BasePlugin
 {
     public override string ModuleName => "WASDMenuAPI";
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleVersion => "1.0.1";
     public override string ModuleAuthor => "Interesting";
 
     public static readonly Dictionary<int, WasdMenuPlayer> Players = new();
