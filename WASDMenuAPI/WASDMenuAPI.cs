@@ -12,7 +12,7 @@ namespace WASDMenuAPI;
 public class WASDMenuAPI : BasePlugin
 {
     public override string ModuleName => "WASDMenuAPI";
-    public override string ModuleVersion => "1.0.1";
+    public override string ModuleVersion => "1.0.2";
     public override string ModuleAuthor => "Interesting";
 
     public static readonly Dictionary<int, WasdMenuPlayer> Players = new();
@@ -81,7 +81,9 @@ public class WASDMenuAPI : BasePlugin
             
             player.Buttons = player.player.Buttons;
             if(player.CenterHtml != "")
-                player.player.PrintToCenterHtml(player.CenterHtml);
+                Server.NextFrame(() =>
+                player.player.PrintToCenterHtml(player.CenterHtml)
+            );
         }
     }
     
